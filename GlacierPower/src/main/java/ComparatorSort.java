@@ -19,6 +19,8 @@ public class ComparatorSort {
         arrayLists.add("Anton");
         Collections.sort(arrayLists,Comparator.<String>naturalOrder());
         System.out.print(arrayLists);
+        Collections.sort(arrayLists,Comparator.<String>reverseOrder());
+        System.out.print(arrayLists);
 
         System.out.print(arrayList);
         Collections.sort(arrayList, new Comparator<Pearson>() {
