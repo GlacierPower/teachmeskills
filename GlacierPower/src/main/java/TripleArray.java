@@ -22,7 +22,7 @@ public class TripleArray {
         }
         for (int numbers2D = 0; numbers2D < numbers.length; numbers2D++) {
             for (int numbers1D = 0; numbers1D < numbers[numbers2D].length; numbers1D++) {
-                for (int number1 = 0; number1 < numbers[numbers2D[numbers1D]].length; number1++) {
+                for (int number1 = 0; number1 < numbers[numbers2D][numbers1D].length; number1++) {
                     System.out.println(numbers[numbers2D][numbers1D][number1] + "\t");
                 }
             }
